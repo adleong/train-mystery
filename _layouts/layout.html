@@ -1,0 +1,38 @@
+---
+nav:
+- url: /terminal.html
+  name: Hyperexpress Computer Terminal
+- url: /shine.html
+  name: Dr. Shine
+- url: /twentyii.html
+  name: Twenty-II
+- url: /martini.html
+  name: Agent Vodka Martini
+- url: /pockets.html
+  name: "pockets"
+---
+<html>
+    <head>
+        <title>Transeurasian Hyperexpress</title>
+        <link rel="stylesheet" type="text/css" href="/css/train.css">
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+              {% for character in layout.nav %}
+                <li><a {% if character.url == page.url %} class="active" {% endif %}
+                href="{{ character.url }}"> {{ character.name }} </a>
+              {% endfor %}
+            </ul>
+            <h2>Inventory</h2>
+            <ul>
+
+            </ul>
+            <ul id="inventory">
+            </ul>
+        </div>
+        <div class="content">
+        {{ content }}
+        </div>
+    </body>
+</html>
