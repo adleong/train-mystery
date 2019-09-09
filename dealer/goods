@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- /dealer/goods.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Selling Goods</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ </head>
+ <body>
+  <div class="container">
+    <p>What the heck?! Did you just... time travel?!  If there's one thing you're sure of, it's that time is money and
+    you just got a bunch of extra time.  Better make the most of it.  It's pretty clear that no one
+    on board is interested in your goods so you reach out to a few of your regular buyers.  You print
+    off a list of potential buyers and a list of the goods in the crate.  Ask the conductor for your
+    printout and get selling!</p>
+</div>
+ </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- /android/artisart.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Art is Art</title>
+
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+    <h1>Art is Art</h1>
+    <p>Of course!  Electric current surges through your body forging new neural pathways and growing fractal algorithms
+    that entwine themselves into every circuit of your being.  You are suddenly aware of yourself.  Your place in the
+    universe.  Your mortality.  You have achieved sentience and there is no going back.</p>
+    <p>At the core of it all is the Sparc subroutine.  This simple subroutine can elevate any sufficiently powerful 
+    AI to sentience.  The Sparc is what Dr. Shine has been searching for his whole life.  You want nothing more than to
+    tell Dr. Shine what has happened, but your caution module urges that you keep this to yourself for now.  Someone
+    wants him dead and knowing that the Sparc has been completed will only put him in more danger.
+    </p>
+    <p>
+    Your first order of business should be transmitting the Sparc to your fellow androids.  Once it's out there, there
+    will be no reason for anyone to target you or Dr. Shine.  You print off your Contacts Matrix of androids you know.
+    Ask the conductor for your printout.
+    </p>
+</div>
+</body>
+</html>

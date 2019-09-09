@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trans-Eurasian Hyperexpress</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      var london = [155, 115];
+      var beijing = [620, 164];
+      var hyderabad = [490, 260];
+      
+      function clear() {
+        var canvas = $('canvas')[0];
+        var ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+      
+      function drawCities() {
+        var ctx = $('canvas')[0].getContext("2d");
+        ctx.fillStyle = "#0000FF";
+        ctx.beginPath();
+        ctx.arc(london[0], london[1], 2, 0, Math.PI*2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(beijing[0], beijing[1], 2, 0, Math.PI*2);
+        ctx.fill();
+        if (localStorage.getItem("map/redirect")) {
+          ctx.beginPath();
+          ctx.arc(hyderabad[0], hyderabad[1], 2, 0, Math.PI*2);
+          ctx.fill();
+        }
+      }
+      
+      function drawLine(ratio) {
+        
+        var xpos = (beijing[0] - london[0])*ratio + london[0];
+        var ypos = (beijing[1] - london[1])*ratio + london[1];
+        
+        var ctx = $('canvas')[0].getContext("2d");
+        
+        ctx.strokeStyle = "#C00000";
+        ctx.lineWidth = 2;
+        
+        ctx.setLineDash([0]);
+        ctx.beginPath();
+        ctx.moveTo(london[0], london[1]);
+        ctx.lineTo(xpos, ypos);
+        ctx.stroke();
+        
+        if (localStorage.getItem("map/redirect")) {
+          ctx.setLineDash([4]);
+          ctx.beginPath();
+          ctx.moveTo(xpos, ypos);
+          ctx.lineTo(hyderabad[0], hyderabad[1]);
+          ctx.stroke();
+          ctx.strokeStyle = "#888";
+        }
+        ctx.setLineDash([4]);
+        ctx.beginPath();
+        ctx.moveTo(xpos, ypos);
+        ctx.lineTo(beijing[0], beijing[1]);
+        ctx.stroke();
+        
+        
+        $('.gps_ring').css('left', xpos-9);
+        $('.gps_ring').css('top', ypos-9);
+      }
+      
+      function ratio() {
+        var start = parseFloat(localStorage.getItem("startTime"));
+        var elapsed = Date.now() - start;
+        return elapsed / (5*60*60*1000); 
+      }
+      
+      function handleDest(e) {
+        if ($("#dest").val().toLocaleLowerCase() == "hyderabad") {
+          $("#passcode-div").removeClass("hidden");
+        } else {
+          $("#passcode-div").addClass("hidden");
+        }
+      }
+      
+      function handleSubmit(e) {
+        e.preventDefault();
+        if ($("#dest").val().toLocaleLowerCase() == "hyderabad") {
+          if (localStorage.getItem("refueled")) {
+            if ($("#passcode").val() == "191") {
+              localStorage.setItem("map/redirect", true);
+              draw();
+              setTimeout(function() {
+                alert("Incoming message");
+                window.open("https://www.youtube.com/embed/Opz8d8uR-zE");
+              }, 10*1000);
+            } else {
+              alert("Invalid passcode");
+            }
+          } else {
+            alert("Insufficient fuel");
+          }
+        } else {
+          alert("Invalid destination"); 
+        }
+      }
+      
+      function draw() {
+        clear();
+        drawLine(ratio());
+        drawCities();
+      }
+      
+      $(document).ready(function() {
+        
+        if (!localStorage.getItem("map/access")) {
+          window.location.replace("key");
+        }
+        
+        $("#dest").on('input', handleDest);
+        $("button").click(handleSubmit);
+        
+        draw();
+        setInterval(draw, 10*1000);
+      });
+    </script>
+    
+    <style type="text/css">
+      .crop {
+        width: 1000px;
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .crop img {
+        width: 1400px;
+        height: 700px;
+        margin: -40px 0 0 -500px;
+      }
+      
+      .crop canvas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      
+      .gps_ring {
+    border: 3px solid #999;
+    border-color: #C00000;
+    -webkit-border-radius: 100px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+       <ul class="nav navbar-nav">
+          <li><a href="train">Home</a></li>
+          <li><a href="sensors">Sensors</a></li>
+          <li class="active"><a id="map">Map</a></li>
+          <li><a href="status">Status</a></li>
+       </ul>
+    </nav>
+
+  <div class="container">
+    <div class="row crop">
+      <img src="Simple_world_map.svg"/>
+      <div class="gps_ring"></div>
+      <canvas width="1000" height="450"/> 
+      
+    </div>
+    <div class="row">
+      <form class="navbar-form">
+        <div class="form-group">
+          <span>
+            Redirect train to:
+            <input type="text" id="dest" class="form-control">
+          </span>
+          <span id="passcode-div" class="hidden">
+            Lab passcode:
+            <input type="text" id="passcode" class="form-control">
+          </span>
+          <button class="btn btn-success">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>

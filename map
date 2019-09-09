@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trans-Eurasian Hyperexpress</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+var _0xa0d1=["\x63\x61\x6E\x76\x61\x73","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x63\x6C\x65\x61\x72\x52\x65\x63\x74","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x23\x30\x30\x30\x30\x46\x46","\x62\x65\x67\x69\x6E\x50\x61\x74\x68","\x50\x49","\x61\x72\x63","\x66\x69\x6C\x6C","\x6D\x61\x70\x2F\x72\x65\x64\x69\x72\x65\x63\x74","\x67\x65\x74\x49\x74\x65\x6D","\x73\x74\x72\x6F\x6B\x65\x53\x74\x79\x6C\x65","\x23\x43\x30\x30\x30\x30\x30","\x6C\x69\x6E\x65\x57\x69\x64\x74\x68","\x73\x65\x74\x4C\x69\x6E\x65\x44\x61\x73\x68","\x6D\x6F\x76\x65\x54\x6F","\x6C\x69\x6E\x65\x54\x6F","\x73\x74\x72\x6F\x6B\x65","\x23\x38\x38\x38","\x6C\x65\x66\x74","\x63\x73\x73","\x2E\x67\x70\x73\x5F\x72\x69\x6E\x67","\x74\x6F\x70","\x73\x74\x61\x72\x74\x54\x69\x6D\x65","\x6E\x6F\x77","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x76\x61\x6C","\x23\x64\x65\x73\x74","\x68\x79\x64\x65\x72\x61\x62\x61\x64","\x68\x69\x64\x64\x65\x6E","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x23\x70\x61\x73\x73\x63\x6F\x64\x65\x2D\x64\x69\x76","\x61\x64\x64\x43\x6C\x61\x73\x73","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x72\x65\x66\x75\x65\x6C\x65\x64","\x23\x70\x61\x73\x73\x63\x6F\x64\x65","\x31\x39\x31","\x73\x65\x74\x49\x74\x65\x6D","\x49\x6E\x63\x6F\x6D\x69\x6E\x67\x20\x6D\x65\x73\x73\x61\x67\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x79\x6F\x75\x74\x75\x62\x65\x2E\x63\x6F\x6D\x2F\x65\x6D\x62\x65\x64\x2F\x4F\x70\x7A\x38\x64\x38\x75\x52\x2D\x7A\x45","\x6F\x70\x65\x6E","\x49\x6E\x76\x61\x6C\x69\x64\x20\x70\x61\x73\x73\x63\x6F\x64\x65","\x49\x6E\x73\x75\x66\x66\x69\x63\x69\x65\x6E\x74\x20\x66\x75\x65\x6C","\x49\x6E\x76\x61\x6C\x69\x64\x20\x64\x65\x73\x74\x69\x6E\x61\x74\x69\x6F\x6E","\x6D\x61\x70\x2F\x61\x63\x63\x65\x73\x73","\x6B\x65\x79","\x72\x65\x70\x6C\x61\x63\x65","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x69\x6E\x70\x75\x74","\x6F\x6E","\x63\x6C\x69\x63\x6B","\x62\x75\x74\x74\x6F\x6E","\x72\x65\x61\x64\x79"];var london=[155,115];var beijing=[620,164];var hyderabad=[490,260];function clear(){var _0xc649x5=$(_0xa0d1[0])[0];var _0xc649x6=_0xc649x5[_0xa0d1[2]](_0xa0d1[1]);_0xc649x6[_0xa0d1[5]](0,0,_0xc649x5[_0xa0d1[3]],_0xc649x5[_0xa0d1[4]])}function drawCities(){var _0xc649x6=$(_0xa0d1[0])[0][_0xa0d1[2]](_0xa0d1[1]);_0xc649x6[_0xa0d1[6]]=_0xa0d1[7];_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[10]](london[0],london[1],2,0,Math[_0xa0d1[9]]*2);_0xc649x6[_0xa0d1[11]]();_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[10]](beijing[0],beijing[1],2,0,Math[_0xa0d1[9]]*2);_0xc649x6[_0xa0d1[11]]();if(localStorage[_0xa0d1[13]](_0xa0d1[12])){_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[10]](hyderabad[0],hyderabad[1],2,0,Math[_0xa0d1[9]]*2);_0xc649x6[_0xa0d1[11]]()}}function drawLine(ratio){var _0xc649xa=(beijing[0]-london[0])*ratio+london[0];var _0xc649xb=(beijing[1]-london[1])*ratio+london[1];var _0xc649x6=$(_0xa0d1[0])[0][_0xa0d1[2]](_0xa0d1[1]);_0xc649x6[_0xa0d1[14]]=_0xa0d1[15];_0xc649x6[_0xa0d1[16]]=2;_0xc649x6[_0xa0d1[17]]([0]);_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[18]](london[0],london[1]);_0xc649x6[_0xa0d1[19]](_0xc649xa,_0xc649xb);_0xc649x6[_0xa0d1[20]]();if(localStorage[_0xa0d1[13]](_0xa0d1[12])){_0xc649x6[_0xa0d1[17]]([4]);_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[18]](_0xc649xa,_0xc649xb);_0xc649x6[_0xa0d1[19]](hyderabad[0],hyderabad[1]);_0xc649x6[_0xa0d1[20]]();_0xc649x6[_0xa0d1[14]]=_0xa0d1[21]};_0xc649x6[_0xa0d1[17]]([4]);_0xc649x6[_0xa0d1[8]]();_0xc649x6[_0xa0d1[18]](_0xc649xa,_0xc649xb);_0xc649x6[_0xa0d1[19]](beijing[0],beijing[1]);_0xc649x6[_0xa0d1[20]]();$(_0xa0d1[24])[_0xa0d1[23]](_0xa0d1[22],_0xc649xa-9);$(_0xa0d1[24])[_0xa0d1[23]](_0xa0d1[25],_0xc649xb-9)}function ratio(){var _0xc649xc=parseFloat(localStorage[_0xa0d1[13]](_0xa0d1[26]));var _0xc649xd=Date[_0xa0d1[27]]()-_0xc649xc;return _0xc649xd/(5*60*60*1000)}function handleDest(_0xc649xf){if($(_0xa0d1[30])[_0xa0d1[29]]()[_0xa0d1[28]]()==_0xa0d1[31]){$(_0xa0d1[34])[_0xa0d1[33]](_0xa0d1[32])}else {$(_0xa0d1[34])[_0xa0d1[35]](_0xa0d1[32])}}function handleSubmit(_0xc649xf){_0xc649xf[_0xa0d1[36]]();if($(_0xa0d1[30])[_0xa0d1[29]]()[_0xa0d1[28]]()==_0xa0d1[31]){if(localStorage[_0xa0d1[13]](_0xa0d1[37])){if($(_0xa0d1[38])[_0xa0d1[29]]()==_0xa0d1[39]){localStorage[_0xa0d1[40]](_0xa0d1[12],true);draw();setTimeout(function(){alert(_0xa0d1[41]);window[_0xa0d1[43]](_0xa0d1[42])},10*1000)}else {alert(_0xa0d1[44])}}else {alert(_0xa0d1[45])}}else {alert(_0xa0d1[46])}}function draw(){clear();drawLine(ratio());drawCities()}$(document)[_0xa0d1[55]](function(){if(!localStorage[_0xa0d1[13]](_0xa0d1[47])){window[_0xa0d1[50]][_0xa0d1[49]](_0xa0d1[48])};$(_0xa0d1[30])[_0xa0d1[52]](_0xa0d1[51],handleDest);$(_0xa0d1[54])[_0xa0d1[53]](handleSubmit);draw();setInterval(draw,10*1000)})
+    </script>
+    
+    <style type="text/css">
+      .crop {
+        width: 1000px;
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .crop img {
+        width: 1400px;
+        height: 700px;
+        margin: -40px 0 0 -500px;
+      }
+      
+      .crop canvas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      
+      .gps_ring {
+    border: 3px solid #999;
+    border-color: #C00000;
+    -webkit-border-radius: 100px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+       <ul class="nav navbar-nav">
+          <li><a href="train">Home</a></li>
+          <li><a href="sensors">Sensors</a></li>
+          <li class="active"><a id="map">Map</a></li>
+          <li><a href="status">Status</a></li>
+       </ul>
+    </nav>
+
+  <div class="container">
+    <div class="row crop">
+      <img src="Simple_world_map.svg"/>
+      <div class="gps_ring"></div>
+      <canvas width="1000" height="450"/> 
+      
+    </div>
+    <div class="row">
+      <form class="navbar-form">
+        <div class="form-group">
+          <span>
+            Redirect train to:
+            <input type="text" id="dest" class="form-control">
+          </span>
+          <span id="passcode-div" class="hidden">
+            Lab passcode:
+            <input type="text" id="passcode" class="form-control">
+          </span>
+          <button class="btn btn-success">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>

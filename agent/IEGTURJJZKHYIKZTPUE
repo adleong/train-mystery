@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- /agent/fdasfga -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Subway Route</title>
+
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+    <p>
+        You report back to HQ with the route that the Daedalus agents take
+        through the subways.  Within minutes the secret service posts patrols
+        along the route and quickly apprehends another Daedalus agent.  This
+        one isn't as resilient as the last and quickly spills the proverbial beans.
+    </p>
+    <h3>"The andoid is a bomb"</h3>
+    he admits.
+    <p>
+        WHAT?!  Daedalus agents intercepted key electronic components used in
+        Twenty-II's construction and rigged them to explode.  There's no time
+        to lose, you need to disarm that bomb PRONTO!
+    </p>
+    <p>
+        You need as much information about bombs as possible.  Ask DEADBEEF to
+        lookup everything she can about keyword: <span style="font-family: monospace; text-decoration: underline;">bombs</span>.  
+        (she can use it with her personal prefix) And ask the conductor
+        if he has any tools to open up Twenty-II and get a look inside.  And
+        for god's sake hurry!  This train could be blown to smithereens any
+        minute!
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trans-Eurasian Hyperexpress</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        var refuelCode = "umadbro";
+        
+        function ratio() {
+          var start = parseFloat(localStorage.getItem("startTime"));
+          var elapsed = Date.now() - start;
+          return elapsed / (5*60*60*1000); 
+        }
+        
+        function fuel() {
+          var f = (100-ratio()*100);
+          if (localStorage.getItem("refueled")) {
+              f = 100;
+          }
+          $("#fuel").text(f.toFixed());
+          return Math.round(f);
+        }
+        
+        $(document).ready(function() {
+            fuel();
+           $("button").click(function (e){
+              e.preventDefault();
+              if ($("input").val().toLocaleLowerCase() == refuelCode) {
+                  var f = fuel();
+                  localStorage.setItem("refueled", true);
+                  $("input").val("");
+                  var incr = setInterval(function() {
+                      f++;
+                      $("#fuel").text(f.toFixed());
+                      if (f >= 100) {
+                          window.clearInterval(incr);
+                      }
+                  }, 100);
+                  
+              } else {
+                  alert("Invalid code");
+              }
+           });
+        });
+    </script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+       <ul class="nav navbar-nav">
+          <li><a href="train">Home</a></li>
+          <li><a href="sensors">Sensors</a></li>
+          <li><a href="map">Map</a></li>
+          <li class="active"><a href="status">Status</a></li>
+       </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Train Status</h1>
+      <h2>Fuel level: <span id="fuel">100</span>%</h2>
+      <form class="navbar-form">
+        <div class="form-group">
+          Refuel code:
+          <input type="text" class="form-control">
+          <button class="btn btn-success">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+
+  </body>
+</html>

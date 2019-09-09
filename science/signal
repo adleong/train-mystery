@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- /science/signal -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Signal</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <div class="container">
+<p>What just happened?  You were dead.  And now you're not.  How is that possible?
+For a moment before the conductor shot you, he seemed like he knew you.  Like he
+had known you for a long time.  But that look is gone now.</p>
+<p>
+It seems that you have travelled through time to a few hours prior to your death.  You
+had heard of theories that speculated that time travel could be possible but
+you had never taken them seriously.  If you could discover what just happened,
+you could publish the most incredible paper...
+</p>
+<p>
+No, that's not important.  What's important is that someone wants you dead and
+you only have a few hours to change the course of events.  The conductor now
+doesn't seem like the same person who he was when he shot you; something fishy
+is going on.  
+</p>
+<p>
+If time travel is truly involved and if the theories that you've read hold any
+water, then it's likely that information from the future is being transmitted 
+into the present by a chrono-entangled radio wave.  If you can get access to the
+train's antennas and tune them to 12.345kHz, you might be able to tap into the
+signal from the future.
+</p>
+</div>
+ </head>
+</html>

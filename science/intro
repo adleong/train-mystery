@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- /science/intro.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intro</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <div class="container">
+    <h1>Welcome Aboard</h1>
+
+
+
+<p>Welcome aboard the Transeurasian Hyperexpress train from London to Beijing.  The train has entered mainland China and is nearing its final destination.  The journey has been quiet and uneventful and you’ve mostly kept to yourself, tweaking the Sparc algorithm without any success.  But you've been holed up in your cabin for too long.  Time to walk around the train and stretch your legs. </p>
+<p>Goals:</p>
+<ul>
+    <li>Check on Twenty-II, make sure he's doing okay</li>
+    <li>Chat with the other passengers, maybe telling someone about your reserach will trigger an epiphany</li>
+</ul>
+
+</div>
+ </head>
+</html>

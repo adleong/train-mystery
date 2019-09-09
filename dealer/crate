@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- /dealer/crate.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Crate of Goods</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+    <h1>Crate of Goods</h1>
+    <p>A crate of assorted goods that you are transporting China to sell.</p>
+        <p>The crate contains:</p>
+            <h3>Antigrav Coils</h3>
+            These grey metal coils are an essential part for manufacturing hovertrains, hovercars, hoverpets,
+            etc.
+            <h3>Energon Crystals</h3>
+            These blue crystals are extremely rare and contain massive amounts of energy.
+            <h3>Gold Bullion</h3>
+            A 500 gram gold bar.
+            <h3>Radioactive Sludge</h3>
+            A canister of red liquid radioactive sludge.  Useful as a lubricant, nutritional supplement,
+            biological weapon, or low efficiency fuel.
+            <h3>Refined Hyperfuel</h3>
+            Regined hyperfuel is the most efficient fuel in the world and is made by dissolving energon crystals
+            in radioactive sludge.
+            <h3>Titanium Screws</h3>
+            These grey metal screws are used to hold together just about everything.  Selling these
+            should be a piece of cake.
+    </div>
+</body>
+</html>

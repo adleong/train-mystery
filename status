@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trans-Eurasian Hyperexpress</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+var _0xcec6=["\x75\x6D\x61\x64\x62\x72\x6F","\x73\x74\x61\x72\x74\x54\x69\x6D\x65","\x67\x65\x74\x49\x74\x65\x6D","\x6E\x6F\x77","\x72\x65\x66\x75\x65\x6C\x65\x64","\x74\x6F\x46\x69\x78\x65\x64","\x74\x65\x78\x74","\x23\x66\x75\x65\x6C","\x72\x6F\x75\x6E\x64","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x76\x61\x6C","\x69\x6E\x70\x75\x74","\x73\x65\x74\x49\x74\x65\x6D","","\x63\x6C\x65\x61\x72\x49\x6E\x74\x65\x72\x76\x61\x6C","\x49\x6E\x76\x61\x6C\x69\x64\x20\x63\x6F\x64\x65","\x63\x6C\x69\x63\x6B","\x62\x75\x74\x74\x6F\x6E","\x72\x65\x61\x64\x79"];var refuelCode=_0xcec6[0];function ratio(){var _0x2b0bx3=parseFloat(localStorage[_0xcec6[2]](_0xcec6[1]));var _0x2b0bx4=Date[_0xcec6[3]]()-_0x2b0bx3;return _0x2b0bx4/(5*60*60*1000);}function fuel(){var _0x2b0bx6=(100-ratio()*100);if(localStorage[_0xcec6[2]](_0xcec6[4])){_0x2b0bx6=100};$(_0xcec6[7])[_0xcec6[6]](_0x2b0bx6[_0xcec6[5]]());return Math[_0xcec6[8]](_0x2b0bx6);}$(document)[_0xcec6[19]](function(){fuel();$(_0xcec6[18])[_0xcec6[17]](function(_0x2b0bx7){_0x2b0bx7[_0xcec6[9]]();if($(_0xcec6[12])[_0xcec6[11]]()[_0xcec6[10]]()==refuelCode){var _0x2b0bx6=fuel();localStorage[_0xcec6[13]](_0xcec6[4],true);$(_0xcec6[12])[_0xcec6[11]](_0xcec6[14]);var _0x2b0bx8=setInterval(function(){_0x2b0bx6++;$(_0xcec6[7])[_0xcec6[6]](_0x2b0bx6[_0xcec6[5]]());if(_0x2b0bx6>=100){window[_0xcec6[15]](_0x2b0bx8)};},100);}else {alert(_0xcec6[16])};});});
+    </script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+       <ul class="nav navbar-nav">
+          <li><a href="train">Home</a></li>
+          <li><a href="sensors">Sensors</a></li>
+          <li><a href="map">Map</a></li>
+          <li class="active"><a href="status">Status</a></li>
+       </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Train Status</h1>
+      <h2>Fuel level: <span id="fuel">100</span>%</h2>
+      <form class="navbar-form">
+        <div class="form-group">
+          Refuel code:
+          <input type="text" class="form-control">
+          <button class="btn btn-success">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+
+  </body>
+</html>
