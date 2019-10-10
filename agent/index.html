@@ -27,10 +27,46 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('button').click(function(e) {
+          e.preventDefault();
+          if($('input')val().toLocaleLowerCase() == "iegturjjzkhyikztpue") {
+            window.location = "bomb.html";
+          } else if (
+            $('input')val().toLocaleLowerCase() == "jfegcilmekfdhggedb" ||
+            $('input')val().toLocaleLowerCase() == "jfegdmclafgeebdegk" ||
+            $('input')val().toLocaleLowerCase() == "jfegdmlfgegeebhcdk" ||
+            $('input')val().toLocaleLowerCase() == "jfegdmlfgegeekdcba"
+          ) {
+            window.location = "disarm.html";
+          } else if ($('input')val().toLocaleLowerCase() == "hq") {
+            window.location = "hq.html";
+          } else if ($('input')val().toLocaleLowerCase() == "intro"){
+            window.location = "intro.html";
+          } else if ($('input')val().toLocaleLowerCase() == "daedalus"){
+            window.location = "daedalus.html";
+          } else {
+            window.location = "../404.html";
+          }
+        });
+      });
+    </script>
 
     <div class="container">
 <h1>Special Agents: Vodka and Martini</h1>
 <h2>The Agents</h2>
+
+<form class="navbar-form">
+<div class="form-group">
+  Answer Code:
+  <input type="text" class="form-control">
+</div>
+<button class="btn btn-success">Submit</button>
+</form>
+
+<p><i>When you have the answer to a puzzle or a keyword that you want to investigage,
+type it into this box</i></p>
 
 <h3>Bio</h3>
 <p>

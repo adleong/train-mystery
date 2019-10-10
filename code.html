@@ -21,17 +21,30 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript">
-var _0x8062=["\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","","\x72\x65\x70\x6C\x61\x63\x65","\x76\x61\x6C","\x69\x6E\x70\x75\x74","\x68\x65\x6C\x6C\x6F\x77\x6F\x72\x6C\x64","\x45\x6E\x63\x6F\x64\x69\x6E\x67\x20\x65\x72\x72\x6F\x72","\x64\x6F\x3C\x2D\x2D\x3E\x64\x65\x66\x3E\x6A\x2D\x21","\x50\x61\x73\x73\x77\x6F\x72\x64\x20\x61\x63\x63\x65\x70\x74\x65\x64","\x73\x65\x6E\x73\x6F\x72\x73\x2F\x61\x63\x63\x65\x73\x73","\x73\x65\x74\x49\x74\x65\x6D","\x73\x65\x6E\x73\x6F\x72\x73","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x50\x61\x73\x73\x77\x6F\x72\x64\x20\x69\x6E\x63\x6F\x72\x72\x65\x63\x74","\x63\x6C\x69\x63\x6B","\x62\x75\x74\x74\x6F\x6E","\x72\x65\x61\x64\x79"];$(document)[_0x8062[17]](function(){$(_0x8062[16])[_0x8062[15]](function(_0x1cc4x1){_0x1cc4x1[_0x8062[0]]();if($(_0x8062[5])[_0x8062[4]]()[_0x8062[3]](/ /g,_0x8062[2])[_0x8062[1]]()==_0x8062[6]){alert(_0x8062[7])}else {if($(_0x8062[5])[_0x8062[4]]()[_0x8062[3]](/ /g,_0x8062[2])[_0x8062[1]]()==_0x8062[8]){alert(_0x8062[9]);localStorage[_0x8062[11]](_0x8062[10],true);window[_0x8062[13]][_0x8062[3]](_0x8062[12]);}else {alert(_0x8062[14])}};})});
+        $(document).ready(function() {
+        $('button').click(function(e) {
+          e.preventDefault();
+          if( $('input').val().replace(/ /g, "").toLocaleLowerCase() == 'helloworld' ) {
+              alert("Encoding error");
+          } else if ( $('input').val().replace(/ /g, "").toLocaleLowerCase() == 'do<-->def>j-!' ) {
+              alert("Password accepted");
+              localStorage.setItem("sensors/access", true);
+              window.location.replace("sensors");
+          } else {
+            alert("Password incorrect");
+          }
+        });
+        });
     </script>
   </head>
   <body>
 
     <nav class="navbar navbar-inverse">
        <ul class="nav navbar-nav">
-          <li><a href="train">Home</a></li>
-          <li class="active"><a href="sensors">Sensors</a></li>
-          <li><a href="map">Map</a></li>
-          <li><a href="status">Status</a></li>
+          <li><a href="train.html">Home</a></li>
+          <li class="active"><a href="sensors.html">Sensors</a></li>
+          <li><a href="map.html">Map</a></li>
+          <li><a href="status.html">Status</a></li>
        </ul>
     </nav>
     

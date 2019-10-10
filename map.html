@@ -127,7 +127,7 @@
       $(document).ready(function() {
         
         if (!localStorage.getItem("map/access")) {
-          window.location.replace("key");
+          window.location.replace("key.html");
         }
         
         $("#dest").on('input', handleDest);
@@ -180,10 +180,10 @@
 
     <nav class="navbar navbar-inverse">
        <ul class="nav navbar-nav">
-          <li><a href="train">Home</a></li>
-          <li><a href="sensors">Sensors</a></li>
-          <li class="active"><a id="map">Map</a></li>
-          <li><a href="status">Status</a></li>
+          <li><a href="train.html">Home</a></li>
+          <li><a href="sensors.html">Sensors</a></li>
+          <li class="active"><a href="map.html">Map</a></li>
+          <li><a href="status.html">Status</a></li>
        </ul>
     </nav>
 

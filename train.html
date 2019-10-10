@@ -76,9 +76,9 @@
         $('#map').unbind("click");
         $('#status').unbind("click");
         if (localStorage.getItem("backdoor")) {
-          $('#sensors').attr('href', 'sensors');
-          $('#map').attr('href', 'map');
-          $('#status').attr('href', 'status');
+          $('#sensors').attr('href', 'sensors.html');
+          $('#map').attr('href', 'map.html');
+          $('#status').attr('href', 'status.html');
         } else {
           $('#sensors').click(function() { alert("Access Denied");});
           $('#map').click(function() { alert("Access Denied");});
@@ -124,7 +124,7 @@
 
     <nav class="navbar navbar-inverse">
        <ul class="nav navbar-nav">
-          <li class="active"><a href="train">Home</a></li>
+          <li class="active"><a href="train.html">Home</a></li>
           <li><a id="sensors">Sensors</a></li>
           <li><a id="map">Map</a></li>
           <li><a id="status">Status</a></li>

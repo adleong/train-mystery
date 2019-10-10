@@ -254,7 +254,7 @@
         
         $(document).ready(function() {
             if (!localStorage.getItem("sensors/access")) {
-                window.location.replace("code");
+                window.location.replace("code.html");
             }
             updateLock();
             answers();
@@ -308,10 +308,10 @@
 
     <nav class="navbar navbar-inverse">
        <ul class="nav navbar-nav">
-          <li><a href="train">Home</a></li>
-          <li class="active"><a href="sensors">Sensors</a></li>
-          <li><a href="map">Map</a></li>
-          <li><a href="status">Status</a></li>
+          <li><a href="train.html">Home</a></li>
+          <li class="active"><a href="sensors.html">Sensors</a></li>
+          <li><a href="map.html">Map</a></li>
+          <li><a href="status.html">Status</a></li>
        </ul>
     </nav>
 
@@ -345,7 +345,7 @@
                 <canvas id="signal" width="600" height="50">
                     
                 </canvas>
-                </center
+                </center>
             </div>
         </div>
         <div class="row">
