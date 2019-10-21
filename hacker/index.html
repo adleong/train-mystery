@@ -22,9 +22,43 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+        <script type="text/javascript">
+      $(document).ready(function(){
+        $('button').click(function(e) {
+          e.preventDefault();
+          if($('input').val().toLocaleLowerCase() == "bombs") {
+            window.location = "bombs.html";
+          } else if ($('input').val().toLocaleLowerCase() == "hacktheplanet") {
+            window.location = "hacktheplanet.html";
+          } else if ($('input').val().toLocaleLowerCase() == "intro"){
+            window.location = "intro.html";
+          } else {
+            window.location = "../404.html";
+          }
+        });
+      });
+    </script>
+
     <div class="container">
     <h1>Reggie “0xDEADBEEF” Miller</h1>
 <h2>Hacker</h2>
+
+<form class="navbar-form">
+<div class="form-group">
+  Answer Code:
+  <input type="text" class="form-control">
+</div>
+<button class="btn btn-success">Submit</button>
+</form>
+
+<p>
+    Welcome abord, please make yourself comfortable.  While aboard the Transeurasian Hyperexpress,
+    you interact with your environment using answer codes.  Whenever you solve a puzzle, the answer
+    will sometimes be a code.  Enter the code in the box above to complete the puzzle.  You can
+    also sometimes investigate keywords by entering them the box.  To start your adventure,
+    investigate the keyword <em>intro</em>.
+</p>
+
 <h3>Bio</h3>
 <p>
 Your name is Reggie Miller but everyone knows you by your hacker alias, 0xDEADBEEF, or BEEF for short.  Despite being only 18 years old, you’ve hacked the pentagon, the British secret service, and national banks in every country.  Unfortunately, you’re no longer technically a juvenile and the authorities are getting real tired of your shit.  As a result, you’re traveling to Beijing where you can lay low for a while and stay off the radar.  Hahahaha just kidding you’re going to light their shit up from behind international firewalls.

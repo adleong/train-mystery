@@ -22,15 +22,47 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+        <script type="text/javascript">
+      $(document).ready(function(){
+        $('button').click(function(e) {
+          e.preventDefault();
+          if($('input').val().toLocaleLowerCase() == "intro") {
+            window.location = "intro.html";
+          } else if ($('input').val().toLocaleLowerCase() == "signal") {
+            window.location = "signal.html";
+          } else {
+            window.location = "../404.html";
+          }
+        });
+      });
+    </script>
+
     <div class="container">
     <h1>Dr. Franklin Shine</h1>
 <h2>The Scientist</h2>
-<h3>Bio</h3>
-<p>
-You are Dr. Franklin Shine, expert researcher in robotics and artificial intelligence.  All you life you have been chasing the goal of artificial sentience and now you’re so close you can almost taste it!  Your latest android, Twenty-II, is your most advanced yet.  You have been working on an algorithm called the Sparc which, in theory, can grant sentience to any sufficiently complex process.  Unfortunately, you haven’t been able to get the Sparc to work with Twenty-II yet, which is why you are taking him to Tsinghua University in Beijing to where your colleagues will help you work out the bugs.  To get there, the two of you will journey on the Transeurasian Hyperexpress train from London to Beijing.</p>
+
+<form class="navbar-form">
+<div class="form-group">
+  Answer Code:
+  <input type="text" class="form-control">
+</div>
+<button class="btn btn-success">Submit</button>
+</form>
 
 <p>
-You’ve become quite fond of Twenty-II and consider him to be not just your creation, but also your friend.
+    Welcome abord, please make yourself comfortable.  While aboard the Transeurasian Hyperexpress,
+    you interact with your environment using answer codes.  Whenever you solve a puzzle, the answer
+    will sometimes be a code.  Enter the code in the box above to complete the puzzle.  You can
+    also sometimes investigate keywords by entering them the box.  To start your adventure,
+    investigate the keyword <em>intro</em>.
+</p>
+
+<h3>Bio</h3>
+<p>
+You are Dr. Franklin Shine, expert researcher in robotics and artificial intelligence.  All you life you have been chasing the goal of artificial sentience and now you’re so close you can almost taste it!  Your latest android, Twenty-II, is your most advanced yet.  You have been working on an algorithm called the Sparc which, in theory, can grant sentience to any sufficiently complex process.  Unfortunately, you haven’t been able to get the Sparc to work with Twenty-II yet, which is why you are taking them to Tsinghua University in Beijing to where your colleagues will help you work out the bugs.  To get there, the two of you will journey on the Transeurasian Hyperexpress train from London to Beijing.</p>
+
+<p>
+You’ve become quite fond of Twenty-II and consider them to be not just your creation, but also your friend.
 </p>
 
 <h3>Roleplaying Tips</h3>
