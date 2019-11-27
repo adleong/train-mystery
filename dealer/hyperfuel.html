@@ -40,35 +40,20 @@
       }
     </style>
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/stabilizer")) {
-            if (credits >= 400) {
-                credits -= 400;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/stabilizer", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Signal Stabilizer.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+    <script src="hyperfuel.js">
     </script>
 
 </head>
 <body>
     <div class="container">
-      <h1>Signal Stabilizer</h1>
+      <h1>Refined Hyperfuel</h1>
       <p>
-          This is an electronic component which reduces noise and jitter in a signal.
-          It's built into a wiring tile for easy installation.  It also comes
-          with a battery.  A Breezos drone delivers the part to the train's cargo
-          bay.  Ask the conductor to retrieve it.<br/>
-          <img src="stabilizer.png"/>
+          Kay Lee cackles madly as they sell the Refined Hyperfuel back to you for a 
+          3900% profit.  God, what an asshole.  This hyperfuel better be worth it.
+          <br/><br/>
+          Refuel code: UMADBRO
       </p>
+      
 </div>
 </body>
 </html>

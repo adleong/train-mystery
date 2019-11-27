@@ -40,22 +40,8 @@
       }
     </style>
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/key")) {
-            if (credits >= 600) {
-                credits -= 600;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/key", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Strange Key.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+    <script src="key.js">
+
     </script>
 
 </head>
@@ -67,6 +53,8 @@
           You 3D print a copy of the key.  Ask the conductor to retrieve it for you.
           <img src="key.png"/>
       </p>
+      <hr>
+<a href="index.html">Home</a>
 </div>
 </body>
 </html>

@@ -40,35 +40,23 @@
       }
     </style>
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/hyperfuel")) {
-            if (credits >= 1200) {
-                credits -= 1200;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/hyperfuel", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Refined Hyperfuel.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+    <script src="registry.js">
+
     </script>
 
 </head>
 <body>
     <div class="container">
-      <h1>Refined Hyperfuel</h1>
+      <h1>Android Version Registry</h1>
       <p>
-          Lord Chroma cackles madly as he sells the Refined Hyperfuel back to you for a 
-          1614% profit.  God, what an asshole.  This hyperfuel better be worth it.
-          <br/><br/>
-          Refuel code: UMADBRO
+          This is a list of all registered androids and the software version that
+          they are running.  Twenty-II doesn't appear to be on the list, but that
+          makes sense; he's an experimental model.  Vicky is, though.  She's
+          running version Vanilla.  You print off the entire list.  See the
+          conductor for your printout.
       </p>
-      
+      <hr>
+<a href="index.html">Home</a>
 </div>
 </body>
 </html>
