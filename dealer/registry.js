@@ -1,15 +1,1 @@
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/registry")) {
-            if (credits >= 400) {
-                credits -= 400;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/registry", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Android Version Registry.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+var _0x10ec=['ZGVhbGVyL3JlZ2lzdHJ5','c2V0SXRlbQ==','dGV4dA==','WW91IGRvbid0IGhhdmUgZW5vdWdoIGNyZWRpdHMgdG8gYnV5IHRoZSBBbmRyb2lkIFZlcnNpb24gUmVnaXN0cnku','cmVhZHk=','cGFyc2U=','Z2V0SXRlbQ==','ZGVhbGVyL2NyZWRpdHM='];(function(_0x25b2d8,_0x33441e){var _0x1602cf=function(_0x5a6f38){while(--_0x5a6f38){_0x25b2d8['push'](_0x25b2d8['shift']());}};_0x1602cf(++_0x33441e);}(_0x10ec,0xa4));var _0x35b8=function(_0x26b110,_0x382539){_0x26b110=_0x26b110-0x0;var _0x8b714a=_0x10ec[_0x26b110];if(_0x35b8['mEaCZG']===undefined){(function(){var _0x4819da;try{var _0x1d014a=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x4819da=_0x1d014a();}catch(_0x2a292e){_0x4819da=window;}var _0x25c308='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x4819da['atob']||(_0x4819da['atob']=function(_0x2deb76){var _0x1f577c=String(_0x2deb76)['replace'](/=+$/,'');for(var _0x1c2ac6=0x0,_0x44e4a1,_0x29b8ba,_0x324113=0x0,_0x306f19='';_0x29b8ba=_0x1f577c['charAt'](_0x324113++);~_0x29b8ba&&(_0x44e4a1=_0x1c2ac6%0x4?_0x44e4a1*0x40+_0x29b8ba:_0x29b8ba,_0x1c2ac6++%0x4)?_0x306f19+=String['fromCharCode'](0xff&_0x44e4a1>>(-0x2*_0x1c2ac6&0x6)):0x0){_0x29b8ba=_0x25c308['indexOf'](_0x29b8ba);}return _0x306f19;});}());_0x35b8['hQSOSR']=function(_0x232f53){var _0x4807da=atob(_0x232f53);var _0x5770f5=[];for(var _0x410193=0x0,_0x53a642=_0x4807da['length'];_0x410193<_0x53a642;_0x410193++){_0x5770f5+='%'+('00'+_0x4807da['charCodeAt'](_0x410193)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5770f5);};_0x35b8['pYmpLE']={};_0x35b8['mEaCZG']=!![];}var _0x184728=_0x35b8['pYmpLE'][_0x26b110];if(_0x184728===undefined){_0x8b714a=_0x35b8['hQSOSR'](_0x8b714a);_0x35b8['pYmpLE'][_0x26b110]=_0x8b714a;}else{_0x8b714a=_0x184728;}return _0x8b714a;};$(document)[_0x35b8('0x0')](function(){var _0x187ae8=JSON[_0x35b8('0x1')](localStorage[_0x35b8('0x2')](_0x35b8('0x3')))||0x0;if(!localStorage[_0x35b8('0x2')](_0x35b8('0x4'))){if(_0x187ae8>=0x190){_0x187ae8-=0x190;localStorage[_0x35b8('0x5')](_0x35b8('0x3'),_0x187ae8);localStorage[_0x35b8('0x5')]('dealer/registry',!![]);}else{$('p')[_0x35b8('0x6')](_0x35b8('0x7'));}}$('#credits')[_0x35b8('0x6')](_0x187ae8);});

@@ -1,15 +1,1 @@
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/hyperfuel")) {
-            if (credits >= 1200) {
-                credits -= 1200;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/hyperfuel", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Refined Hyperfuel.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+var _0x1c69=['cmVhZHk=','cGFyc2U=','Z2V0SXRlbQ==','ZGVhbGVyL2NyZWRpdHM=','c2V0SXRlbQ==','ZGVhbGVyL2h5cGVyZnVlbA==','I2NyZWRpdHM=','dGV4dA=='];(function(_0x17e31a,_0x2efc02){var _0x360d3a=function(_0x4e0dd4){while(--_0x4e0dd4){_0x17e31a['push'](_0x17e31a['shift']());}};_0x360d3a(++_0x2efc02);}(_0x1c69,0x1c8));var _0x1c4f=function(_0x163bc4,_0x585a13){_0x163bc4=_0x163bc4-0x0;var _0xa5b6a=_0x1c69[_0x163bc4];if(_0x1c4f['FqCHpC']===undefined){(function(){var _0x2b6095=function(){var _0x33828f;try{_0x33828f=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x46aee9){_0x33828f=window;}return _0x33828f;};var _0x163d76=_0x2b6095();var _0x57bfd2='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x163d76['atob']||(_0x163d76['atob']=function(_0x4cfc44){var _0x13b64a=String(_0x4cfc44)['replace'](/=+$/,'');for(var _0x17ea4d=0x0,_0x47f27e,_0x2755ac,_0x4a0f07=0x0,_0x3b4409='';_0x2755ac=_0x13b64a['charAt'](_0x4a0f07++);~_0x2755ac&&(_0x47f27e=_0x17ea4d%0x4?_0x47f27e*0x40+_0x2755ac:_0x2755ac,_0x17ea4d++%0x4)?_0x3b4409+=String['fromCharCode'](0xff&_0x47f27e>>(-0x2*_0x17ea4d&0x6)):0x0){_0x2755ac=_0x57bfd2['indexOf'](_0x2755ac);}return _0x3b4409;});}());_0x1c4f['DvxmWa']=function(_0x4a8d44){var _0x35f949=atob(_0x4a8d44);var _0x5decfc=[];for(var _0x4e82c8=0x0,_0x334840=_0x35f949['length'];_0x4e82c8<_0x334840;_0x4e82c8++){_0x5decfc+='%'+('00'+_0x35f949['charCodeAt'](_0x4e82c8)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5decfc);};_0x1c4f['vWDHJa']={};_0x1c4f['FqCHpC']=!![];}var _0x17e697=_0x1c4f['vWDHJa'][_0x163bc4];if(_0x17e697===undefined){_0xa5b6a=_0x1c4f['DvxmWa'](_0xa5b6a);_0x1c4f['vWDHJa'][_0x163bc4]=_0xa5b6a;}else{_0xa5b6a=_0x17e697;}return _0xa5b6a;};$(document)[_0x1c4f('0x0')](function(){var _0x86367c=JSON[_0x1c4f('0x1')](localStorage[_0x1c4f('0x2')](_0x1c4f('0x3')))||0x0;if(!localStorage[_0x1c4f('0x2')]('dealer/hyperfuel')){if(_0x86367c>=0x4b0){_0x86367c-=0x4b0;localStorage[_0x1c4f('0x4')](_0x1c4f('0x3'),_0x86367c);localStorage[_0x1c4f('0x4')](_0x1c4f('0x5'),!![]);}else{$('p')['text']('You\x20don\x27t\x20have\x20enough\x20credits\x20to\x20buy\x20the\x20Refined\x20Hyperfuel.');}}$(_0x1c4f('0x6'))[_0x1c4f('0x7')](_0x86367c);});

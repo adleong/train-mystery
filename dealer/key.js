@@ -1,15 +1,1 @@
-    $(document).ready(function(){
-        var credits = JSON.parse(localStorage.getItem("dealer/credits")) || 0;
-        
-        if (!localStorage.getItem("dealer/key")) {
-            if (credits >= 600) {
-                credits -= 600;
-                localStorage.setItem("dealer/credits", credits);
-                localStorage.setItem("dealer/key", true);
-            } else {
-                $('p').text("You don't have enough credits to buy the Strange Key.");
-            }
-        }
-        
-        $('#credits').text(credits);
-    });
+var _0x1bc8=['dGV4dA==','I2NyZWRpdHM=','cmVhZHk=','Z2V0SXRlbQ==','ZGVhbGVyL2NyZWRpdHM=','ZGVhbGVyL2tleQ==','c2V0SXRlbQ=='];(function(_0x1ecb97,_0x2e4678){var _0x2bb670=function(_0x251f76){while(--_0x251f76){_0x1ecb97['push'](_0x1ecb97['shift']());}};_0x2bb670(++_0x2e4678);}(_0x1bc8,0x121));var _0x43e3=function(_0x41b5ff,_0xff9ae8){_0x41b5ff=_0x41b5ff-0x0;var _0x3e8ff1=_0x1bc8[_0x41b5ff];if(_0x43e3['MEUJjA']===undefined){(function(){var _0x2d4bce;try{var _0x2b8c55=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x2d4bce=_0x2b8c55();}catch(_0x1fd3c5){_0x2d4bce=window;}var _0x539f0d='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x2d4bce['atob']||(_0x2d4bce['atob']=function(_0x28f57b){var _0x4cf48b=String(_0x28f57b)['replace'](/=+$/,'');for(var _0x2925b2=0x0,_0x2e726d,_0x58dd02,_0x9e5c96=0x0,_0x4e29fc='';_0x58dd02=_0x4cf48b['charAt'](_0x9e5c96++);~_0x58dd02&&(_0x2e726d=_0x2925b2%0x4?_0x2e726d*0x40+_0x58dd02:_0x58dd02,_0x2925b2++%0x4)?_0x4e29fc+=String['fromCharCode'](0xff&_0x2e726d>>(-0x2*_0x2925b2&0x6)):0x0){_0x58dd02=_0x539f0d['indexOf'](_0x58dd02);}return _0x4e29fc;});}());_0x43e3['yHjiAA']=function(_0x58a5e2){var _0x1ffbbf=atob(_0x58a5e2);var _0x18bf2d=[];for(var _0x26844b=0x0,_0x1ba0bb=_0x1ffbbf['length'];_0x26844b<_0x1ba0bb;_0x26844b++){_0x18bf2d+='%'+('00'+_0x1ffbbf['charCodeAt'](_0x26844b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x18bf2d);};_0x43e3['jXEHyw']={};_0x43e3['MEUJjA']=!![];}var _0x455700=_0x43e3['jXEHyw'][_0x41b5ff];if(_0x455700===undefined){_0x3e8ff1=_0x43e3['yHjiAA'](_0x3e8ff1);_0x43e3['jXEHyw'][_0x41b5ff]=_0x3e8ff1;}else{_0x3e8ff1=_0x455700;}return _0x3e8ff1;};$(document)[_0x43e3('0x0')](function(){var _0x6783d9=JSON['parse'](localStorage[_0x43e3('0x1')](_0x43e3('0x2')))||0x0;if(!localStorage[_0x43e3('0x1')](_0x43e3('0x3'))){if(_0x6783d9>=0x258){_0x6783d9-=0x258;localStorage[_0x43e3('0x4')](_0x43e3('0x2'),_0x6783d9);localStorage[_0x43e3('0x4')]('dealer/key',!![]);}else{$('p')[_0x43e3('0x5')]('You\x20don\x27t\x20have\x20enough\x20credits\x20to\x20buy\x20the\x20Strange\x20Key.');}}$(_0x43e3('0x6'))[_0x43e3('0x5')](_0x6783d9);});
