@@ -1,0 +1,13 @@
+#!/bin/bash
+
+git checkout gh-pages
+git reset --hard master
+
+for f in $(find . -path "*.js" -not -path "./js/*")
+do
+  javascript-obfuscator $f --string-array-encoding true -o $f
+done
+
+git commit -am "obfuscate"
+git push origin HEAD
+git checkout master
