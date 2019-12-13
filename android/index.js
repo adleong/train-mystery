@@ -1,7 +1,7 @@
       $(document).ready(function(){
         $('button').click(function(e) {
           e.preventDefault();
-          if($('input').val().toLocaleLowerCase() == "artisart") {
+          if($('input').val().replace(/ /g, "").toLocaleLowerCase() == "artisart") {
             window.location = "artisart.html";
           } else if (
             $('input').val().toLocaleLowerCase() == "b8e8" ||
